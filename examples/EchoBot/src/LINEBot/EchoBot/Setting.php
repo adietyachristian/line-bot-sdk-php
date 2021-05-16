@@ -33,7 +33,7 @@ class Setting
 
                 'bot' => [
                     'channelToken' => 'fwTcQCWQcE7dYMTlg//ETmtER2mrat3h6XTUwmQokI7vmBpk9n6ldGtgt+iJwpgzR+zn8f5ZGLBkU2TVBbwKfeMFUbFdjVc84GaTug7dUGejGQRgILOoXMnMDpYFGhhmpI1NSWsG6bOjidWy0qdQnQdB04t89/1O/w1cDnyilFU=',
-                    'channelSecret' => 'a095170597ca4bceaff8864803193473',
+                    'channelSecret' => 'a095170597ca4bceaff8864803193473'
                 ]
 
                 // 'apiEndpointBase' => getenv('LINEBOT_API_ENDPOINT_BASE'),
