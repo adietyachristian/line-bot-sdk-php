@@ -24,7 +24,7 @@ class Setting
     {
         return [
             'settings' => [
-                'displayErrorDetails' => true, // set to false in production
+                'displayErrorDetails' => false, // set to false in production
 
                 'logger' => [
                     'name' => 'slim-app',
@@ -32,11 +32,11 @@ class Setting
                 ],
 
                 'bot' => [
-                    'channelToken' => getenv('LINEBOT_CHANNEL_TOKEN') ?: '<your channel token>',
-                    'channelSecret' => getenv('LINEBOT_CHANNEL_SECRET') ?: '<your channel secret>',
-                ],
+                    'channelToken' => 'fwTcQCWQcE7dYMTlg//ETmtER2mrat3h6XTUwmQokI7vmBpk9n6ldGtgt+iJwpgzR+zn8f5ZGLBkU2TVBbwKfeMFUbFdjVc84GaTug7dUGejGQRgILOoXMnMDpYFGhhmpI1NSWsG6bOjidWy0qdQnQdB04t89/1O/w1cDnyilFU=',
+                    'channelSecret' => 'a095170597ca4bceaff8864803193473',
+                ]
 
-                'apiEndpointBase' => getenv('LINEBOT_API_ENDPOINT_BASE'),
+                // 'apiEndpointBase' => getenv('LINEBOT_API_ENDPOINT_BASE'),
             ],
         ];
     }
